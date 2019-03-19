@@ -1,0 +1,42 @@
+p{
+    font-size: 1.3em;
+}
+
+.main {
+    background: url("../img/background.jpg") no-repeat center;
+    background-size: cover;
+    color:white;
+    max-width:100%;
+}
+
+.main-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color:#FFF;
+   
+}
+.link {
+    background: #1b1b1b;
+}
+
+.link a i{
+    font-size: 2em;
+    line-height: 2.5em;
+    height: 2.5em;
+    width: 2.5em;
+}
+
+.border{
+    border:2px solid #FFF !important;
+}
+
+.bg-dark{
+    background-color: black !important;
+}
+
+@media (max-width: 768px) { 
+    p {
+        font-size: 1.0em;
+    }
+}
